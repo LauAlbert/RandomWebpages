@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./img/cafe-light-bulbs-macro-97815.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.loginBox {
+    height: 500px;
+    width: 400px;
+    background: gray;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    box-shadow: 0 5px 10px #000000;
+}
+
+.userIcon {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 75px);
+    box-shadow: 0 5px 10px #000000;
+}
+
+.loginBody {
+    padding: 100px 50px;
+}
+
+.loginBody h1 {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.loginBody label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.loginBody input {
+    width: 100%;
+    margin-bottom: 10px; 
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 30px;
+ 
+}
+
+.loginBody input::placeholder {
+    color: black;
+    font-size: 1.3em;
+}
+
+.loginBody button {
+    float: right;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.loginBody button:hover {
+    background: lightgray;
+}
+
+.clearFix {
+    clear:both;
+}
+
+.forgotPassword {
+    padding-top: 10px;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.signUp {
+    font-size: 80%;
+
+    position:absolute;
+    width:300px;
+    bottom:15px;
+    left:50%;
+    margin-left:-150px;
+    text-align: center;
+  
+}
+
+.signUp a {
+    text-decoration: none;
+
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
